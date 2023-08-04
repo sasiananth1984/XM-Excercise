@@ -14,7 +14,7 @@ Your Exercise tasks are completed by using Laravel. Thanks for Opportunity to wo
 
 ## Execute the Code
 
-1) Enter your URl/public/   -- Ex ( http://localhost/folder_path/companyform
+1) Enter your URl/public/   -- Ex ( http://localhost/folder_path/companyform )
 
 2) JS files and CSS files are moved to Public Folder.
 3) RUN php artisan serve
@@ -23,8 +23,6 @@ Your Exercise tasks are completed by using Laravel. Thanks for Opportunity to wo
 6) Send Mail code added - File Name ---app\Http\Controllers\CompanyFormController.php - Execute Mail Function-Uncomment - Line 55.
 
 7) Chart Files are added
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
 
 ## Security Vulnerabilities
 
