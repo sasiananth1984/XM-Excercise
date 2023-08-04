@@ -1,0 +1,99 @@
+.container {
+	max-width: 500px;
+	margin: 50px auto;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+form {
+	border: 1px solid #bcaeb0;
+	background: #bcc1c4;
+	padding: 40px 50px 45px;
+}
+
+.form-control:focus {
+	border-color: #000;
+	box-shadow: none;
+}
+
+label {
+	font-weight: 600;
+}
+
+.error {
+	color: red;
+	font-weight: 400;
+	display: block;
+	padding: 6px 0;
+	font-size: 14px;
+}
+
+.form-control.error {
+	border-color: red;
+	padding: .375rem .75rem;
+}
+
+#records {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+}
+
+#records td,
+#records th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#records tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#records tr:hover {
+	background-color: #ddd;
+}
+
+#records th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #04AA6D;
+	color: white;
+}
+
+.paging-nav {
+	text-align: right;
+	padding-top: 2px;
+}
+
+.paging-nav a {
+	margin: auto 1px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1px 7px;
+	background: #91b9e6;
+	color: white;
+	border-radius: 3px;
+}
+
+.paging-nav .selected-page {
+	background: #187ed5;
+	font-weight: bold;
+}
+
+.paging-nav,
+#records {
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+.left {
+	width: 50%;
+	float: left;
+}
+
+.right {
+	width: 50%;
+	float: right;
+}
